@@ -6,7 +6,7 @@
 
         function calculateCircle() {
             const radius = parseFloat(radiusInput.value);
-            
+
             const circleLength = 2 * Math.PI * radius;
             const circleArea = Math.PI * Math.pow(radius, 2);
 
