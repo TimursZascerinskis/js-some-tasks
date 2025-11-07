@@ -1,17 +1,23 @@
-<!DOCTYPE html>
-<html lang="lv">
+</head>
 
 <body>
-    <h1>Riņķa Aprēķins</h1>
 
-    <label for="radius">Rādiuss (cm):</label>
+    <h1>Rīņķa kalkulators</h1>
+
+    <label for="radius">Ievadiet rādiusu (cm):</label>
     <input type="number" id="radius">
-
     <button id="calculateButton">Aprēķināt</button>
 
-    <div id="result"></div>
+    <p>Rezultāti:</p>
+    <div id="results">
+        <p id="circleLength"></p>
+        <p id="circleArea"></p>
+    </div>
+
+    <p>Vēsture:</p>
+    <ul id="history">
+
+    </ul>
 
     <script src="app.js"></script>
 </body>
-
-</html>
