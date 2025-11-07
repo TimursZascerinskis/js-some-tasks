@@ -11,4 +11,5 @@
             sarakstsList.appendChild(historyItem);
         }
 
+
         saveButton.addEventListener("click", addToHistory);
